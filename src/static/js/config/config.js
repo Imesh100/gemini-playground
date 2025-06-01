@@ -1,7 +1,7 @@
 export const CONFIG = {
     API: {
         VERSION: 'v1alpha',
-        MODEL_NAME: 'models/gemini-2.0-flash-exp'
+        MODEL_NAME: 'models/gemini-2.5-pro-preview-05-06' // Gemini 2.5 Pro preview model
     },
     // You can change the system instruction to your liking
     SYSTEM_INSTRUCTION: {
@@ -10,7 +10,7 @@ export const CONFIG = {
     // Default audio settings
     AUDIO: {
         SAMPLE_RATE: 16000,
-        OUTPUT_SAMPLE_RATE: 24000,      // If you want to have fun, set this to around 14000 (u certainly will)
+        OUTPUT_SAMPLE_RATE: 24000,
         BUFFER_SIZE: 2048,
         CHANNELS: 1
     },
@@ -18,6 +18,6 @@ export const CONFIG = {
     // ROARM: {
     //     IP_ADDRESS: '192.168.1.4'
     // }
-  };
-  
-  export default CONFIG; 
+};
+
+export default CONFIG;
