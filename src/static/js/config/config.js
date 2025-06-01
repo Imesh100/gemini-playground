@@ -1,7 +1,7 @@
 export const CONFIG = {
     API: {
-        VERSION: 'v1beta',
-        MODEL_NAME: 'models/gemini-2.5-pro-preview-tts' // Gemini 2.5 Flash preview model
+        VERSION: 'v1alpha',
+        MODEL_NAME: 'models/gemini-2.5-pro-preview-05-06' // Gemini 2.5 Pro preview model
     },
     // You can change the system instruction to your liking
     SYSTEM_INSTRUCTION: {
@@ -14,7 +14,7 @@ export const CONFIG = {
         BUFFER_SIZE: 2048,
         CHANNELS: 1
     },
-    // If you are working in the RoArm branch
+    // If you are working in the RoArm branch 
     // ROARM: {
     //     IP_ADDRESS: '192.168.1.4'
     // }
