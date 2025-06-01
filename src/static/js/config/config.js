@@ -1,7 +1,7 @@
 export const CONFIG = {
     API: {
         VERSION: 'v1alpha',
-        MODEL_NAME: 'models/gemini-2.5-pro-preview-05-06' // Gemini 2.5 Pro preview model
+        MODEL_NAME: 'models/gemini-2.5-flash-preview-native-audio-dialog' // Gemini 2.5 Pro preview model
     },
     // You can change the system instruction to your liking
     SYSTEM_INSTRUCTION: {
